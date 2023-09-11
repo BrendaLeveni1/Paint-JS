@@ -1,0 +1,66 @@
+#canvas {
+    border: 2px solid #000;
+    margin: auto;
+    background-color: #fff;
+}
+
+#opcion {
+    justify-content: center;
+}
+label{
+  font-style:italic;
+  padding:10px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #B695C0;
+
+}
+
+h2, h1 {
+
+        text-align: center; 
+        font-family: Arial Black; 
+        font-weight: bold; 
+        font-size: 25px; 
+        color: #fff; 
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        
+}
+    .opciones{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 auto;
+      }
+      button{
+        text-align: center;
+        padding: 10px 25px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 7px;
+        color: #fff;
+        margin-bottom: 5px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+
+/*Boton 2*/
+.boton2{
+    background-color: #b31495;
+    transition: all ease-in-out 1s;
+  }
+  .boton2:hover{
+    border-radius: 40px;
+    background: radial-gradient(#e66465, #b31495);
+  }
+
